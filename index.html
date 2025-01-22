@@ -1,7 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Yang's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #5D7B6F, #A4C3A2);
+            color: white;
+            padding: 20px 10%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        header .info {
+            flex: 1;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        header a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        header img {
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: white;
+        }
+        .education {
+            background: linear-gradient(135deg, #A4C3A2, #B0D4B8);
+        }
+        .work-experience {
+            background: linear-gradient(135deg, #B0D4B8, #EAE7D6);
+        }
+        .skills {
+            background: linear-gradient(135deg, #EAE7D6, #D7F9FA);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: linear-gradient(135deg, #5D7B6F, #A4C3A2);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
-<h1>Welcome!</h1>
-<p>Joy Yang</p>
+    <header>
+        <div class="info">
+            <h1>Joy Yang</h1>
+            <p>muqingyang2018@gmail.com | 626-495-8333</p>
+            <p><a href="https://www.linkedin.com/in/joy-y-a73894294/" target="_blank">LinkedIn Profile</a></p>
+        </div>
+        <img src="joy.JPG" alt="Joy Yang's Image" style="max-width: 120px; height: auto;">
+
+    </header>
+
+    <div class="container">
+        <section class="section education">
+            <h2>Education</h2>
+            <p><strong>University of California, Irvine</strong></p>
+            <p>Bachelor of Science in Game Design and Interactive Media</p>
+            <p>Bachelor of Science in Software Engineering</p>
+            <p><em>Expected Graduation: 2027</em></p>
+        </section>
+
+        <section class="section work-experience">
+            <h2>Work Experience</h2>
+            <p><strong>Tutor</strong></p>
+            <p>Self-Employed | 2021–2023</p>
+            <ul>
+                <li>Taught Chinese and Math to students of all ages, including elementary, middle school, and adult learners.</li>
+                <li>Customized lesson plans to match individual learning needs and goals, improving student performance and confidence.</li>
+                <li>Cultivated a positive and engaging learning environment, fostering long-term academic growth.</li>
+            </ul>
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, C++</li>
+                <li><strong>Languages:</strong> Fluent in Chinese (Mandarin), Proficient in English</li>
+                <li><strong>Game Design:</strong> Unity</li>
+                <li><strong>Soft Skills:</strong> Effective communication, adaptability, and curriculum design</li>
+                <li><strong>Other:</strong> Video Editing, Graphic Design, Digital Drawing</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Joy Yang. All Rights Reserved.
+    </footer>
 </body>
 </html>
