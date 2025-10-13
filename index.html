@@ -15,10 +15,11 @@
         header {
             background: linear-gradient(135deg, #5D7B6F, #A4C3A2);
             color: white;
-            padding: 20px 10%;
+            padding: 20px 5%;
             display: flex;
             align-items: center;
             gap: 20px;
+            flex-wrap: wrap;
         }
         header .info {
             flex: 1;
@@ -41,6 +42,9 @@
         header img {
             border-radius: 50%;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            max-width: 100px;
+            height: auto;
+            flex-shrink: 0;
         }
         .container {
             width: 80%;
