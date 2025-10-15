@@ -1,0 +1,112 @@
+body {
+            font-family: 'Poppins', Arial, sans-serif; 
+            /* font-family: Arial, sans-serif; */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #5D7B6F, #A4C3A2);
+            color: white;
+            padding: 20px 5%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        header .info {
+            flex: 1;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        header a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        header img {
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            max-width: 100px;
+            height: auto;
+            flex-shrink: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: white;
+        }
+        .education {
+            background: linear-gradient(135deg, #A4C3A2, #B0D4B8);
+        }
+        .work-experience {
+            background: linear-gradient(135deg, #B0D4B8, #EAE7D6);
+        }
+        .skills {
+            background: linear-gradient(135deg, #EAE7D6, #D7F9FA);
+        }
+        .contact {
+            background: linear-gradient(135deg, #b3c3a2, #D7F9FA);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        form button {
+            background-color: #5D7B6F;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #4a6359;
+        }   
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: linear-gradient(135deg, #5D7B6F, #A4C3A2);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            position: relative;
+        }

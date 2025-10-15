@@ -4,101 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joy Yang's Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(135deg, #5D7B6F, #A4C3A2);
-            color: white;
-            padding: 20px 5%;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        header .info {
-            flex: 1;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            margin: 5px 0 0;
-            font-size: 1.2em;
-        }
-        header a {
-            color: #FFD700;
-            text-decoration: none;
-        }
-        header a:hover {
-            text-decoration: underline;
-        }
-        header img {
-            border-radius: 50%;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            max-width: 100px;
-            height: auto;
-            flex-shrink: 0;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .section {
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-        .section h2 {
-            margin-top: 0;
-            color: white;
-        }
-        .education {
-            background: linear-gradient(135deg, #A4C3A2, #B0D4B8);
-        }
-        .work-experience {
-            background: linear-gradient(135deg, #B0D4B8, #EAE7D6);
-        }
-        .skills {
-            background: linear-gradient(135deg, #EAE7D6, #D7F9FA);
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-            color: #333;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: linear-gradient(135deg, #5D7B6F, #A4C3A2);
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <div class="info">
             <h1>Joy Yang</h1>
             <p>muqingyang2018@gmail.com | 626-495-8333</p>
-            <p><a href="https://www.linkedin.com/in/joy-yang-a73894294/" target="_blank">LinkedIn Profile</a></p>
+            <p><a href="https://www.linkedin.com/in/joy-yang-a73894294/" target="_blank">LinkedIn</a> | <a href="https://github.com/lemonfish3" target="_blank">Github</a> | <a href="https://muuum.itch.io/" target="_blank">Itch</a></p>
         </div>
-        <img src="joy.JPG" alt="Joy Yang's Image" style="max-width: 120px; height: auto;">
+        <img src="joy.JPG" alt="Joy Yang's profile picture" style="max-width: 120px; height: auto;">
 
     </header>
 
@@ -139,6 +55,16 @@
                 <li><strong>Other:</strong> Video Editing, Graphic Design, Digital Drawing</li>
             </ul>
         </section>
+        <section class="section contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label>Name: <input type="text" name="name" required></label><br>
+                <label>Email: <input type="email" name="email" required></label><br>
+                <label>Message: <textarea name="message"></textarea></label><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
     </div>
 
     <footer>
