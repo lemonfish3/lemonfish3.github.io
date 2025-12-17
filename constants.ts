@@ -84,21 +84,21 @@ export const MEMORIES: Memory[] = [
     date: "2012. Summer",
     title: "海边",
     text: "前两天翻看相册找到了这张照片，小学时暑假旅行。多少年后再看，完全是不一样的心情",
-    imageUrl: "data/beach.JPG"
+    imageUrl: "https://picsum.photos/seed/nighttalk/600/400"
   },
   {
     id: "m2",
     date: "2017. Winter",
     title: "出发",
     text: "临走时的那个拥抱。那时觉得分开是很遥远的事，没想到后来变成了常态。",
-    imageUrl: "data/last-pic.JPEG"
+    imageUrl: "https://picsum.photos/seed/departure/600/400"
   },
   {
     id: "m3",
     date: "2019. Birthday",
     title: "礼物",
     text: "每年的生日，都会收到不一样的惊喜。还记得我十八岁生日，你找到小学的朋友给我写祝福。那一刻觉得，物理距离其实没那么可怕。",
-    imageUrl: "data/birthday.PNG"
+    imageUrl: "https://picsum.photos/seed/giftart/600/400"
   }
 ];
 
@@ -125,8 +125,9 @@ export const LETTER_CONTENT = {
   title: "致 诗瑶",
   description: "没什么可以给你的，只好写点什么，画点什么。",
   imageUrls: [
-    "data/cover.JPG",
-    "data/letter.jpg"
+    "https://picsum.photos/seed/letter1/600/800",
+    "https://picsum.photos/seed/letter2/600/800",
+    "https://picsum.photos/seed/letter3/600/800"
   ]
 };
 
