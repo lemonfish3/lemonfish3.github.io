@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>给章诗瑶</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600&family=Noto+Sans+SC:wght@300;400&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Noto Sans SC', sans-serif;
-        background-color: #0c0a09; /* stone-950 */
-        color: #e7e5e4; /* stone-200 */
-        overflow-x: hidden;
-      }
-      .serif {
-        font-family: 'Noto Serif SC', serif;
-      }
-      /* Custom scrollbar hide for cleaner look */
-      ::-webkit-scrollbar {
-        width: 0px;
-        background: transparent;
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
-  }
-}
-</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Yang's Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+<body>
+    <header>
+        <div class="info">
+            <h1>Joy Yang</h1>
+            <p>muqingyang2018@gmail.com | 626-495-8333</p>
+            <p><a href="https://www.linkedin.com/in/joy-yang-a73894294/" target="_blank">LinkedIn</a> | <a href="https://github.com/lemonfish3" target="_blank">Github</a> | <a href="https://muuum.itch.io/" target="_blank">Itch</a></p>
+        </div>
+        <img src="joy.JPG" alt="Joy Yang's profile picture" style="max-width: 120px; height: auto;">
+
+    </header>
+
+    <div class="container">
+        <section class="section education">
+            <h2>Education</h2>
+            <p><strong>University of California, Irvine</strong></p>
+            <p>Bachelor of Science in Game Design and Interactive Media</p>
+            <p>Bachelor of Science in Software Engineering</p>
+            <p><em>Expected Graduation: 2027</em></p>
+        </section>
+
+        <section class="section work-experience">
+            <h2>Work Experience</h2>
+            <p><strong>Event Staff</strong></p>
+            <p>Anime Expo | 2024</p>
+            <ul>
+                <li>Assisted with the exhibition and promotion of Yostar’s games at Anime Expo.</li>
+                <li>Supported event operations, managed booth setup, and engaged with attendees to enhance brand visibility and fan experience.</li>
+            </ul>
+            <br>
+            <p><strong>Tutor</strong></p>
+            <p>Self-Employed | 2021–2023</p>
+            <ul>
+                <li>Taught Chinese and Math to students of all ages, including elementary, middle school, and adult learners.</li>
+                <li>Customized lesson plans to match individual learning needs and goals, improving student performance and confidence.</li>
+                <li>Cultivated a positive and engaging learning environment, fostering long-term academic growth.</li>
+            </ul>
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, C++</li>
+                <li><strong>Languages:</strong> Fluent in Chinese (Mandarin), Proficient in English</li>
+                <li><strong>Game Design:</strong> Unity</li>
+                <li><strong>Soft Skills:</strong> Effective communication, adaptability, and curriculum design</li>
+                <li><strong>Other:</strong> Video Editing, Graphic Design, Digital Drawing</li>
+            </ul>
+        </section>
+        <section class="section contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label>Name: <input type="text" name="name" required></label><br>
+                <label>Email: <input type="email" name="email" required></label><br>
+                <label>Message: <textarea name="message"></textarea></label><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Joy Yang. All Rights Reserved.
+    </footer>
+</body>
 </html>
